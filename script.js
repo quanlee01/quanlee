@@ -3,6 +3,7 @@ function eat()
   alert("nhớ ăn cơm nghaennn");
   an.style.display = "none";
   co.style.transform = 'scale(1)';  
+  scale = 1;
   return;
 }
 const an = document.getElementById("an");
