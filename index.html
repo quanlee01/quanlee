@@ -6,15 +6,19 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <title>web đầu tiên nè</title>
-  <link rel="icon" href="">
+  <link rel="icon" href="icon.jpg">
   <style>
-    body {
-      background-color: darkgray;
+    body
+    {
+      background-color: rgb(53, 53, 53);
       color: white;
+    }
+    div {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      flex-direction: column;
     }
   </style>
   <script>
@@ -23,8 +27,14 @@
 </head>
 
 <body>
+  <br>
   <div>
-    <button style="width: 100px; height: 100px;" onclick="eat()">
+    <h1 style="font-size: 10vh; margin-bottom: 1vh;">Em có yêu anh hong?!</h1>
+    <div style="flex-direction: row; height: auto;width: 300px; margin-top: 30px; margin-bottom: 30px; justify-content: space-between;">
+      <button style="width: 100px; height: 55px;" id = "yes">cóa</button>
+      <button style="width: 100px; height: 55px;" id = "no">hong</button>
+    </div>
+    <button style="width: 100px; height: 100px; display: none" id = "an">
       NHAI ĐIII MÀ
     </button>
     <script src="script.js"></script>
