@@ -28,7 +28,7 @@ function no()
   else if(!shown)
   {
     an.style.display = "block";
-    noCnt = 0;
+    noCnt = 1;
   }
   return;
 }
