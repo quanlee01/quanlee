@@ -2,8 +2,6 @@ function eat()
 {
   alert("nhớ ăn cơm nghaennn");
   an.style.display = "none";
-  co.style.transform = 'scale(1)';  
-  scale = 1;
   shown = 0;
   return;
 }
@@ -28,6 +26,8 @@ function no()
   }
   else if(!shown)
   {
+    co.style.transform = 'scale(1)';  
+    scale = 1;
     an.style.display = "block";
     noCnt = 1;
   }
